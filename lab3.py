@@ -1,5 +1,5 @@
 import unittest
-##import xmlrunner
+import xmlrunner
 
 class Node:
     def __init__(self, num):
@@ -87,4 +87,4 @@ if __name__ == '__main__':
         unittest.main(
             testRunner=xmlrunner.XMLTestRunner(output=output),
             failfast=False, buffer=False, catchbreak=False)
-            '''
+          '''
